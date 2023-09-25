@@ -1,0 +1,41 @@
+@charset "UTF-8";
+input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield; /* Убираем стрелочки для Firefox */
+}
+
+.form__input {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  outline: none;
+}
+.form__input::-webkit-input-placeholder {
+  color: #848484;
+}
+.form__input::-moz-placeholder {
+  color: #848484;
+}
+.form__input:-ms-input-placeholder {
+  color: #848484;
+}
+.form__input::-ms-input-placeholder {
+  color: #848484;
+}
+.form__input::placeholder {
+  color: #848484;
+}
+@media (max-width: 767px) {
+  .form__input {
+    font-size: 24px;
+  }
+}
