@@ -14,6 +14,7 @@
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 17px;
   width: 18px;
@@ -58,9 +59,8 @@
     opacity: 1;
     visibility: visible;
     -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-box-shadow: none;
-            box-shadow: none;
   }
 }
 .select-category__options.visible {
@@ -70,6 +70,7 @@
 @media (max-width: 1199px) {
   .select-category__options.visible {
     -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
             transform: translateY(0);
   }
 }
@@ -96,6 +97,7 @@
   background-color: rgba(0, 0, 0, 0.13);
   display: block;
   -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
           transform: translateY(10px);
 }
 .select-category__option:last-child::after {
