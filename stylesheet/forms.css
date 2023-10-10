@@ -12,6 +12,9 @@
   position: relative;
   background-color: #ffffff;
   padding: 10px 100px 10px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 58px;
   border: 1px solid #000000;
   color: #000000;
